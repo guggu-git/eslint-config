@@ -13,6 +13,7 @@ eslint-plugin-react | 7.20.0
 eslint-plugin-react-hooks | 4.0.4
 *eslint-plugin-react-native | 3.8.1
 
+
 ```sh
 yarn add \
   prettier@2.0.5 \
@@ -48,10 +49,7 @@ yarn add @guggugit/eslint-config --dev --exact
     "react-native" // if you're using react-native
   ],
   ...,
-  "prettier": "@guggugit/prettier-config",
-  "dependencies": {
-  "prettier": "x.y.z"
-  },
-  ...
+  "rules": {
+  }
 }
 ```
