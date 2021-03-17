@@ -1,6 +1,6 @@
 module.exports = {
   parser: "babel-eslint",
-  extends: ["airbnb", "airbnb/hooks", "prettier", "prettier/react"],
+  extends: ["airbnb", "airbnb/hooks", "prettier"],
   rules: {
     "jsx-a11y/label-has-for": 0, // deprecated but airbnb has this rule :(
     "react/jsx-filename-extension": 0,
